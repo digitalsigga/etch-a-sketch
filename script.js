@@ -9,3 +9,11 @@ for (let i = 0; i < 16; i++) {
         container.append(content);
     }
 }
+
+const hov = document.querySelectorAll(".content");
+
+hov.forEach((element) => {
+    element.addEventListener("mouseover", (event) => {
+        event.target.style.backgroundColor = "orange";
+    });
+});
