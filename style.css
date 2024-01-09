@@ -1,10 +1,12 @@
 .content {
-    height: 1px;
-    width: 1px;
+    flex: 1 0 6%;
+    aspect-ratio: 1/1;
     background-color: white;
-    padding: 1em;
+    /* padding: 1em; */
     border-style: solid;
     border-color: black;
+    box-sizing: border-box;
+ */
 }
 
 #container {
@@ -12,9 +14,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 650px;
-    width: 650px;
+    height: 920px;
+    width: 920px;
     margin-top: 100px;
+    border-style: solid;
+    border-color: black;
 }
 
 body {

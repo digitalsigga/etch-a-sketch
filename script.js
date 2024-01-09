@@ -1,6 +1,9 @@
 
 const container = document.querySelector('#container');
 
+const button = document.createElement("BUTTON");
+
+
 for (let i = 0; i < 16; i++) {
     for (let j = 0; j < 16; j++) {
         const content = document.createElement('div');
@@ -17,3 +20,12 @@ hov.forEach((element) => {
         event.target.style.backgroundColor = "orange";
     });
 });
+
+function alertFunction() {
+    alert("hey");
+}
+
+const btn = document.querySelector("#btn");
+
+btn.addEventListener('click', alertFunction);
+
