@@ -1,9 +1,11 @@
+
 const container = document.querySelector('#container');
 
-
-for (i = 0; i <= 16; i++) {
-    const content = document.createElement('div');
-    content.classList.add('content');
-    content.textContent = "hey";
-    container.append(content);
+for (let i = 0; i < 16; i++) {
+    for (let j = 0; j < 16; j++) {
+        const content = document.createElement('div');
+        content.classList.add('content');
+        // content.textContent = "hey";
+        container.append(content);
+    }
 }

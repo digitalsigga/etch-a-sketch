@@ -1,0 +1,11 @@
+.content {
+    height: 1px;
+    width: 1px;
+    display: flex;
+    flex-wrap : wrap;
+    background-color: white;
+    padding: 1em;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+}
