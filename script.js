@@ -3,7 +3,7 @@ const container = document.querySelector('#container');
 
 const button = document.createElement("BUTTON");
 
-newGrid(16);
+newGrid(2);
 
 function newGrid(number) {
     container.innerHTML = "";
@@ -31,7 +31,7 @@ function getNumb() {
     let numb = prompt("How many squares per side?");
 
     if(!isNaN(numb)) {
-        newGrid(parseInt(numb,numb));
+        newGrid(parseInt(numb,10));
     } else {
         alert("Please enter a valid number");
     }

@@ -1,12 +1,10 @@
 .content {
+    display: flex;
     flex: 1 0 6%;
     aspect-ratio: 1/1;
     background-color: white;
-    /* padding: 1em; */
-    border-style: solid;
-    border-color: black;
+    border: 1px solid black;
     box-sizing: border-box;
- */
 }
 
 #container {
@@ -27,3 +25,4 @@ body {
     justify-content: center;
     align-items: center;
 }
+
